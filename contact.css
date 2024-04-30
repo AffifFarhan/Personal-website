@@ -1,0 +1,55 @@
+/* Contact Section Styles */
+.contact {
+  background-color: #333; /* Dark background color */
+  color: #eb315a; /* Light text color */
+  padding: 2vw; /* Changed padding to 2vw */
+  border-radius: 1vw; /* Changed border-radius to 1vw */
+  margin-right: 1vw; /* Changed margin-right to 5vw */
+}
+
+.contact h2 {
+  color: #eb315a; /* Light text color */
+}
+
+.contact hr {
+  border-top: 0.1vw solid #eb315a; /* Changed border-top width to 0.1vw */
+  margin-bottom: 2vw;
+}
+
+.contact p {
+  color: #666; /* Medium text color */
+  margin-bottom: 1vw; /* Changed margin-bottom to 1vw */
+  font-size: 1.6vw; /* Changed font-size to 1.2vw */
+}
+
+@media (max-width: 768px){
+  .contact p {
+    font-size: 3vw; /* Changed font-size to 1.2vw */
+  }
+}
+
+.contact p:hover {
+  color: #fff; /* Change text color to white on hover */
+}
+
+.contact .offer-sentence {
+  margin-top: 2vw; /* Changed margin-top to 2vw */
+  font-style: italic;
+  font-size: 1.2vw; /* Changed font-size to 1.2vw */
+  color: #eb315a; /* Red text color */
+  font-family: Arial, sans-serif; /* Change font family */
+  animation: colorChange 3s infinite alternate; /* Apply animation */
+}
+
+/* Animation Keyframes */
+@keyframes colorChange {
+  0% {
+    color: #eb315a; /* Start with red color */
+  }
+  50% {
+    color: #ffffff; /* Change to white color halfway */
+  }
+  100% {
+    color: #eb315a; /* Return to red color */
+  }
+}

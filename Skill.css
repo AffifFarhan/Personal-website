@@ -1,0 +1,48 @@
+/* Skill CSS */
+
+/* Dropdown menu styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.skill-logo {
+    width: 40px; /* Set the size of the logo */
+    height: 40px; /* Set the size of the logo */
+    border-radius: 50%; /* Make it a circle */
+    background-color: white; /* Set the background color of the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 20px;
+}
+
+.progress {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    width: 0;
+    transition: width 0.5s;
+}
