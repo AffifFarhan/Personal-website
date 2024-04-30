@@ -1,9 +1,10 @@
 /* Skill CSS */
 
 /* Dropdown menu styles */
-.section {
+.skill-section {
     padding-left: 20px; /* Adjust the padding value as needed */
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -50,3 +51,4 @@
     width: 50%;
     transition: width 0.5s;
 }
+

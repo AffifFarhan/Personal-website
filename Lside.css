@@ -76,3 +76,26 @@ a:hover {
     transition: max-height 0.2s ease-out;
     background-color: #333333;
 }
+
+@media (max-width: 400px){
+    nav {
+    grid-area: h1;
+        background-color: #121212;
+        padding: 100px 0px 0px;
+        width: 13%;
+        height: 100vh;
+        font-size: 3vw;
+    }
+    .collapsible {
+        background-color: #eb315a;
+        color: white;
+        cursor: pointer;
+        padding: 15px 5px 10px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 3vw;
+        position: relative;
+    }
+}

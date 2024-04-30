@@ -28,6 +28,7 @@ body {
     color: white;
     grid-template-areas:
         "header header header"
+        "h1 h1 h1"
         "leftmenu content rightmenu"
         "footer footer footer";
     grid-template-rows: auto 1fr auto;
@@ -184,4 +185,51 @@ footer {
 
 .gallery img:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 400px){
+    header {
+        animation: slideDown 0.5s ease-out;
+        font-size: 3vw;
+    }
+    .black-box {
+        width: 215px; /* Adjust the width to make the whole box wider */
+        background-color: black;
+        border: 2px solid red; /* Maintain the same border thickness */
+        padding: 30px; /* Maintain the same padding */
+        margin-top: 0; /* Ensure no margin at the top */
+        margin: 0 auto;
+        border-radius: 10px; /* Maintain the same border radius */
+        color: white;
+        height: 30%; /* Maintain the same height */
+        overflow-y: auto; /* Maintain the same overflow behavior */
+    }
+    /* Container for the logo */
+.logo-container {
+    text-align: center;
+}
+
+/* Logo inside the container */
+.logo-inside {
+    width: 40%; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%; /* Make the corners rounded */
+}
+
+/* Text color for the logo */
+.logo-text {
+    color: white;
+    text-align: justify;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 3vw;
+}
 }

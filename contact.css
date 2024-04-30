@@ -22,7 +22,7 @@
   font-size: 1.6vw; /* Changed font-size to 1.2vw */
 }
 
-@media (max-width: 768px){
+@media (max-width: 600px){
   .contact p {
     font-size: 3vw; /* Changed font-size to 1.2vw */
   }
@@ -35,7 +35,7 @@
 .contact .offer-sentence {
   margin-top: 2vw; /* Changed margin-top to 2vw */
   font-style: italic;
-  font-size: 1.2vw; /* Changed font-size to 1.2vw */
+  font-size: 3vw; /* Changed font-size to 1.2vw */
   color: #eb315a; /* Red text color */
   font-family: Arial, sans-serif; /* Change font family */
   animation: colorChange 3s infinite alternate; /* Apply animation */

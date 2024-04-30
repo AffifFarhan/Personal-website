@@ -10,3 +10,27 @@ aside {
     height: 100vh;
     box-sizing: border-box;
 }
+@media (max-width: 400px){
+    aside {
+        grid-area: h1;
+        background-color: #121212;
+        padding: 100px 0px 10px;
+        position: fixed;
+        top: 50%;
+        right: 0;
+        width: 13%;
+        height: 100vh;
+        font-size: 3vw;
+    }
+    .collapsible-menu{
+        background-color: #eb315a;
+        list-style: none;
+        color: white;
+        cursor: pointer;
+        width: 50px;
+        text-align: left;
+        outline: none;
+        font-size: 3vw;
+        position: left;
+    }
+}
