@@ -33,7 +33,7 @@ body {
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr 2fr 1fr;
     min-height: 100vh;
-    padding-top: 10%;
+    padding: 10%;
 }
 
 /* Header styling */
